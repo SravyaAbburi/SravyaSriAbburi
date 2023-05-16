@@ -1,0 +1,34 @@
+.projects__card{
+    padding: 1rem 1.25rem;
+
+}
+
+.projects__card-title{
+    color: var(--title-color);
+    text-align: center;
+    
+ 
+}
+
+.projects__card-data{
+    text-align: center;
+    color: var(--text-color);
+}
+
+.projects__card-link{
+   
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    
+}
+
+
+.projects__card-link:hover{
+    color: var(--title-color-dark);
+    }
+
+    .projects__link{
+        text-align: center;
+    }
+
+
