@@ -20,9 +20,9 @@ const Projects = () => {
        {
         projectsData.map(project =>{
           return (
-            <Col lg={3} md={4} sm={6} key={project.id}>
+            <Col lg={4} md={4} sm={6} key={project.id}>
         <div className="projects__card">
-        <Card >
+        <Card>
          <Card.Body>
         <Card.Title className='projects__card-title'>{project.title}</Card.Title>
         <Card.Text className='projects__card-data'>
