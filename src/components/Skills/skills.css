@@ -32,8 +32,8 @@
 }
 
 .skills__data{
-display: flex;
-column-gap: 0.5rem;
+    display: flex;
+    column-gap: 0.5rem;
 
 }
 
