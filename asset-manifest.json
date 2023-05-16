@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SravyaSriAbburi/static/css/main.9b9da554.css",
+    "main.js": "/SravyaSriAbburi/static/js/main.a9586e68.js",
+    "static/media/profile.JPG": "/SravyaSriAbburi/static/media/profile.c9cc292d2f4717cc26ce.JPG",
+    "static/media/SravyaAbburi.pdf": "/SravyaSriAbburi/static/media/SravyaAbburi.0f0ed133d508b31f68ab.pdf",
+    "static/media/about.JPG": "/SravyaSriAbburi/static/media/about.39ee7f7f51f42bb960e2.JPG",
+    "index.html": "/SravyaSriAbburi/index.html",
+    "main.9b9da554.css.map": "/SravyaSriAbburi/static/css/main.9b9da554.css.map",
+    "main.a9586e68.js.map": "/SravyaSriAbburi/static/js/main.a9586e68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b9da554.css",
+    "static/js/main.a9586e68.js"
+  ]
+}
