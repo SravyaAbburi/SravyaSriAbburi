@@ -35,12 +35,12 @@
 }
 
 .about__title{
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 
 .about__subtitle{
-    font-size: var(--tiny-font-size);
+    font-size: var(--smaller-font-size);
 }
 .about__description{
     padding: 0 4rem 0 0;

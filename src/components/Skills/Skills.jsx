@@ -10,7 +10,7 @@ const Skills = () => {
         <span className='section__subtitle'>My technical expertise</span>
         <div className="skills__container container grid">
            <MachineLearning />
-        <Other/>
+           <Other/>
         </div>
     </section>
   )

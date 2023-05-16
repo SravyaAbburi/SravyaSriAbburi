@@ -37,6 +37,13 @@
     margin-bottom: var(--mb-1);
     
 }
+.home__tech{
+    font-size: var(--h2-font-size);
+}
+
+.home__tech__icon{
+ font-size: var(--h2-font-size);
+}
 
 .home__subtitle::before{
     content: '';
