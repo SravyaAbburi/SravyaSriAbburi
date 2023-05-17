@@ -44,10 +44,11 @@
 }
 
 .skills__name{
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
 }
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
@@ -78,5 +79,5 @@
  }
   }
   .skills__name{
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
   }

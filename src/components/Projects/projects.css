@@ -8,7 +8,10 @@
     color: var(--title-color);
     text-align: center;
     
- 
+}
+
+.projects__card-img{
+    height: 150px;
 }
 
 .projects__card-data{
