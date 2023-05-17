@@ -15,7 +15,7 @@ const Projects = () => {
   <h2 className='section__title'>Projects</h2>
   <span className='section__subtitle'>My Projects</span>
 
-  <Container fluid>
+  <Container className='p-4'>
       <Row>
        {
         projectsData.map(project =>{
