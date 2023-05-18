@@ -3,20 +3,26 @@ import './about.css'
 import AboutImg from '../../assets/about.JPG'
 import Resume from '../../assets/SravyaAbburi.pdf'
 import Info from './Info'
+import { Fade, Slide } from "react-awesome-reveal";
 
 const About = () => {
   return (
     <section className='about section' id='about'>
-
+ <Slide direction="left" triggerOnce>
         <h2 className='section__title'>About Me</h2>
+        </Slide>
         <span className='section__subtitle'>My introduction</span>
         <div className="about__container container grid">
-             <img src={AboutImg} alt="About Img" className="about__img" />
+
+             <img src={AboutImg} alt="About Img" className="about__img" />{" "}
+             <Slide direction="right" triggerOnce>
                 <div className="about__data">
                    <Info />
+                   <Fade direction="right" triggerOnce>
                   <p className="about__description">Machine Learning Engineer, I create various projects, I have years of experience and many clients are happy with the projects carried out.
                   </p>
-                  <a href={Resume} download="" className="button button--flex">Download Resume
+                   </Fade>
+                  <a href={Resume} download="" className="button button--flex">Download Resume {"  "}
                  <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,6 +49,7 @@ const About = () => {
                 ></path>
               </svg></a>
 </div>
+     </Slide>
 </div>
     </section>
   )

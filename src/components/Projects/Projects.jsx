@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
 import projectsData from './ProjectsData' 
+import { Slide } from "react-awesome-reveal";
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -12,8 +13,14 @@ import Card from 'react-bootstrap/Card';
 const Projects = () => {
   return (
   <section className="projects section" id="projects">
+   <Slide direction="left" triggerOnce>
   <h2 className='section__title'>Projects</h2>
+  </Slide>
+  <Slide direction="right" triggerOnce>
   <span className='section__subtitle'>My Projects</span>
+  </Slide>
+
+  <Slide direction="left" triggerOnce>
 
   <Container className='p-4'>
       <Row>
@@ -22,7 +29,7 @@ const Projects = () => {
           return (
             <Col lg={4} md={4} sm={6} key={project.id}>
         <div className="projects__card">
-        <Card>
+        <Card >
         <Card.Img variant="top" src={project.img} className='projects__card-img'/>
          <Card.Body>
         <Card.Title className='projects__card-title'>{project.title}</Card.Title>
@@ -42,7 +49,7 @@ const Projects = () => {
        }
       </Row>
     </Container>
-
+</Slide>
   </section>
   )
 }

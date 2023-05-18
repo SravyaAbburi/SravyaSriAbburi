@@ -1,5 +1,6 @@
 .projects__card{
     padding: 1rem 1.25rem;
+
     
 
 }
@@ -17,6 +18,7 @@
 .projects__card-data{
     text-align: center;
     color: var(--text-color);
+
 }
 
 .projects__card-link{
