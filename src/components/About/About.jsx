@@ -19,7 +19,7 @@ const About = () => {
                 <div className="about__data">
                    <Info />
                    <Fade direction="right" triggerOnce>
-                  <p className="about__description">Machine Learning Engineer, I create various projects, I have years of experience and many clients are happy with the projects carried out.
+                  <p className="about__description">As a Machine Learning Engineer, I create various projects, I have years of experience and many clients are happy with the projects carried out.
                   </p>
                    </Fade>
                   <a href={Resume} download="" className="button button--flex">Download Resume {"  "}

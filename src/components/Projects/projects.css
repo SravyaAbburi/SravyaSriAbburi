@@ -1,5 +1,6 @@
 .projects__card{
     padding: 1rem 1.25rem;
+    border-radius:50%;
     
 
 }
@@ -26,7 +27,6 @@
     font-weight: var(--font-medium);
     
 }
-
 
 .projects__card-link:hover{
     color: var(--title-color-dark);
