@@ -10,6 +10,8 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
 
+
+
 const Projects = () => {
   return (
   <section className="projects section" id="projects">
@@ -22,13 +24,14 @@ const Projects = () => {
 
   <Slide direction="left" triggerOnce>
 
-  <Container className='p-4'>
-      <Row>
+  <Container className='p-1'>
+      <Row >
        {
         projectsData.map(project =>{
           return (
-            <Col lg={4} md={4} sm={6} key={project.id}>
+            <Col lg={4} md={4} sm={6} key={project.id} >
         <div className="projects__card">
+        
         <Card >
         <Card.Img variant="top" src={project.img} className='projects__card-img'/>
          <Card.Body>
@@ -42,6 +45,7 @@ const Projects = () => {
        
       </Card.Body>
     </Card>
+ 
         </div>
         </Col>
           )

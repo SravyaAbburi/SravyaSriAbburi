@@ -10,7 +10,7 @@ const MachineLearning = () => {
         <div className="skills__data">
     
         <div>
-        
+      
             <h3 className="skills__name">Python</h3>
             
         </div>

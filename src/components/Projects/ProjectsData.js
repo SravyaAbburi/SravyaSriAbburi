@@ -9,23 +9,23 @@
  const projectsData = [
     {
       id: 1,
-      title: "Web design",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris le.",
+      title: "Sentiment Analysis of Youtube Comments",
+      description: "applying sentiment analysis technique on youtube comments",
       sourcecode:"",
       img:project1
     },
     {
       id: 2,
      
-      title: "App movil",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris le.",
+      title: "Fake Currency Detection System",
+      description: "Detecting Fake Currency using Nueral Networks",
       sourcecode:"",
       img:project2
     },
     {
       id: 3,
      
-      title: "Brand design",
+      title: "MNIST Handwritten Digit Classification",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris le.",
       sourcecode:"",
       img:project3
@@ -33,7 +33,7 @@
     {
       id: 4,
     
-      title: "App movil",
+      title: "Old Car Price Prediction",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris le.",
       sourcecode:"",
       img:project4
@@ -41,7 +41,7 @@
     {
       id: 5,
       
-      title: "Web design",
+      title: "Attrition Rate Prediction",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris le.",
       sourcecode:"",
       img:project5
@@ -49,7 +49,7 @@
     {
       id: 6,
       
-      title: "Web design",
+      title: "Spotify Recommender System",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris le.",
       sourcecode:"",
       img:project6
@@ -57,7 +57,7 @@
     {
       id: 7,
       
-      title: "Web design",
+      title: "Parkinsons Disease Prediction",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris le.",
       sourcecode:"",
       img:project7
