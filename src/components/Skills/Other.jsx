@@ -7,7 +7,7 @@ const Other = () => {
     <div className="skills__box">
      <div className="skills__group">
          <div className="skills__data">
-     
+         <i className="devicon-vscode-plain colored"></i>
          <div>
              <h3 className="skills__name">Tibco BW 5</h3>
              
@@ -15,7 +15,7 @@ const Other = () => {
          </div>
  
          <div className="skills__data">
-     
+         <i className="devicon-vscode-plain colored"></i>
          <div>
              <h3 className="skills__name">Tibco Ems</h3>
              
@@ -23,35 +23,35 @@ const Other = () => {
          </div>
 
          <div className="skills__data">
-     
+         <i className="devicon-github-original colored"></i>
          <div>
              <h3 className="skills__name">Git</h3>
              
          </div>
          </div>
          <div className="skills__data">
-     
+         <i className="devicon-html5-plain colored"></i>
          <div>
              <h3 className="skills__name">HTML</h3>
              
          </div>
          </div>
          <div className="skills__data">
-     
+         <i className="devicon-css3-plain colored"></i>
          <div>
              <h3 className="skills__name">CSS</h3>
              
          </div>
          </div>
          <div className="skills__data">
-     
+         <i className="devicon-bootstrap-plain colored"></i>
          <div>
              <h3 className="skills__name">Bootstrap</h3>
              
          </div>
          </div>
          <div className="skills__data">
-     
+         <i className="devicon-javascript-plain colored"></i>
          <div>
              <h3 className="skills__name">Javascript</h3>
              
@@ -60,7 +60,7 @@ const Other = () => {
 
 
          <div className="skills__data">
-     
+         <i className="devicon-react-original colored"></i>
          <div>
              <h3 className="skills__name">React</h3>
              
@@ -68,7 +68,7 @@ const Other = () => {
          </div>
 
          <div className="skills__data">
-     
+         <i className="devicon-postgresql-plain colored"></i>
          <div>
              <h3 className="skills__name">SQL</h3>
              
@@ -76,15 +76,15 @@ const Other = () => {
          </div>
 
          <div className="skills__data">
-     
+         <i className="devicon-jupyter-plain-wordmark colored"></i>
          <div>
-             <h3 className="skills__name">Oracle</h3>
+             <h3 className="skills__name">Jupyter</h3>
              
          </div>
          </div>
 
          <div className="skills__data">
-     
+         <i className="devicon-mongodb-plain colored"></i>
          <div>
              <h3 className="skills__name">MongoDB</h3>
              
@@ -92,7 +92,7 @@ const Other = () => {
          </div>
 
          <div className="skills__data">
-     
+         <i className="devicon-java-plain colored"></i>
          <div>
              <h3 className="skills__name">Java</h3>
              

@@ -1,5 +1,5 @@
 .skills__container{
-    grid-template-columns: repeat(2,350px);
+    grid-template-columns: repeat(2,380px);
     column-gap: 3rem;
     justify-content: center;
 }
@@ -57,7 +57,10 @@ column-gap: 0.5rem;
     line-height: 18px;
     
 }
-
+.skills__logo {
+    width: 25px;
+    height: 25px;
+  }
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
