@@ -30,11 +30,12 @@ const Projects = () => {
         projectsData.map(project =>{
           return (
             <Col lg={4} md={4} sm={6} key={project.id} >
-        <div className="projects__card">
+       
         
-        <Card >
+        <Card className="projects__card">
         <Card.Img variant="top" src={project.img} className='projects__card-img'/>
-         <Card.Body>
+         <Card.Body className='project__card-body'>
+         
         <Card.Title className='projects__card-title'>{project.title}</Card.Title>
         <Card.Text className='projects__card-data'>
           {project.description}
@@ -46,7 +47,7 @@ const Projects = () => {
       </Card.Body>
     </Card>
  
-        </div>
+   
         </Col>
           )
         })
