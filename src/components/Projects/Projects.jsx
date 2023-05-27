@@ -9,6 +9,7 @@ import Col from 'react-bootstrap/Col';
 
 import Card from 'react-bootstrap/Card';
 
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -41,7 +42,8 @@ const Projects = () => {
           {project.description}
         </Card.Text>
         <div className='projects__link'>
-        <a href={project.sourcecode} className="projects__card-link" >Source Code</a>
+        <Button href={project.sourcecode} className="projects__card-link">Source Code</Button>
+       
         </div>
        
       </Card.Body>

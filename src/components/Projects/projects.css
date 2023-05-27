@@ -54,10 +54,17 @@ border-radius: 15px;
 
 .projects__card-link{
    
-color: white;
+    background-color: var(--title-color);
+    color: var(--container-color);
     font-weight: var(--font-medium);
+    border: none;
+    outline: none;
     
 }
+.projects__card-link:hover{
+    background-color: var(--title-color-dark);
+}
+
 
 
 
