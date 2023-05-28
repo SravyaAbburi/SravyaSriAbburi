@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/SravyaSriAbburi/static/css/main.9b9da554.css",
-    "main.js": "/SravyaSriAbburi/static/js/main.a9586e68.js",
+    "main.css": "/SravyaSriAbburi/static/css/main.364af389.css",
+    "main.js": "/SravyaSriAbburi/static/js/main.32037d96.js",
+    "static/media/project5.jpg": "/SravyaSriAbburi/static/media/project5.0b4ab16cb914dc0f13ca.jpg",
+    "static/media/project7.jpg": "/SravyaSriAbburi/static/media/project7.8fab895ff07dc4917d8c.jpg",
+    "static/media/project4.jpg": "/SravyaSriAbburi/static/media/project4.06e4c2c3cf16f5afd472.jpg",
+    "static/media/project3.jpg": "/SravyaSriAbburi/static/media/project3.c7f013f9f4d119d942b4.jpg",
+    "static/media/about.JPG": "/SravyaSriAbburi/static/media/about.aec7e0722fa30a2ebb12.JPG",
+    "static/media/project2.jpg": "/SravyaSriAbburi/static/media/project2.fdbe0d269736542aead5.jpg",
+    "static/media/project6.jpg": "/SravyaSriAbburi/static/media/project6.44dc40b91fbb958b6eda.jpg",
+    "static/media/project1.jpg": "/SravyaSriAbburi/static/media/project1.a9c162f0b48e081d88c5.jpg",
     "static/media/profile.JPG": "/SravyaSriAbburi/static/media/profile.c9cc292d2f4717cc26ce.JPG",
     "static/media/SravyaAbburi.pdf": "/SravyaSriAbburi/static/media/SravyaAbburi.0f0ed133d508b31f68ab.pdf",
-    "static/media/about.JPG": "/SravyaSriAbburi/static/media/about.39ee7f7f51f42bb960e2.JPG",
     "index.html": "/SravyaSriAbburi/index.html",
-    "main.9b9da554.css.map": "/SravyaSriAbburi/static/css/main.9b9da554.css.map",
-    "main.a9586e68.js.map": "/SravyaSriAbburi/static/js/main.a9586e68.js.map"
+    "main.364af389.css.map": "/SravyaSriAbburi/static/css/main.364af389.css.map",
+    "main.32037d96.js.map": "/SravyaSriAbburi/static/js/main.32037d96.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b9da554.css",
-    "static/js/main.a9586e68.js"
+    "static/css/main.364af389.css",
+    "static/js/main.32037d96.js"
   ]
 }
