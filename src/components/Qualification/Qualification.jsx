@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './qualification.css'
-import { Slide } from "react-awesome-reveal";
+
 
 const Qualification = () => {
     const  [toggleState,setToggleState]=useState(1);
@@ -9,12 +9,12 @@ const Qualification = () => {
     }
   return (
   <section className="qualification section" id='qualification'>
-  <Slide direction="left" triggerOnce>
+  
     <h2 className="section__title">Qualification</h2>
-    </Slide>
-    <Slide direction="right" triggerOnce>
+   
+    
     <span className='section__subtitle'>My Personal Journey</span>
-    </Slide>
+  
     <div className="qualification__container container">
         <div className="qualification__tabs">
             <div className=
@@ -27,7 +27,7 @@ const Qualification = () => {
                 <i className="uil uil-briefcase-alt qualification__icon"></i>Experience
             </div>
         </div>
-        <Slide direction="left" triggerOnce>
+        
         <div className="qualification__sections">
             <div className={toggleState===1 ? "qualification__content qualification__content-active" : "qualification__content"}>
                 <div className="qualification__data">
@@ -92,7 +92,7 @@ const Qualification = () => {
                 
             </div>
         </div>
-        </Slide>
+     
     </div>
   </section>
   )

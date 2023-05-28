@@ -1,17 +1,52 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef} from "react";
+
 import './contact.css'
 
 const Contact = () => {
 
+    const SERVICE_ID= process.env.REACT_APP_SERVICE_ID
+    const TEMPLATE_ID= process.env.REACT_APP_TEMPLATE_ID
+    const PUBLIC_KEY= process.env.REACT_APP_PUBLIC_KEY
+
+    const method = "POST";
+    const url = "https://api.emailjs.com/api/v1.0/email/send";
+
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = async (e) => {
+        
+        e.preventDefault();
+        try {
+        await fetch(url, {
+            method,
+            headers: {
+              "Content-Type": "application/json",
+            },
+    
+            body:
+              JSON.stringify({
+                service_id: SERVICE_ID,
+                template_id: TEMPLATE_ID,
+                user_id: PUBLIC_KEY,
+                template_params: {
+                  name: form.current.name.value,
+                  email: form.current.email.value,
+                  message: form.current.message.value,
+                },
+              }),
+          });
+         
+            
+          e.target.reset()
+           
+          
+        } catch (error) {
+          console.log(error);
+        }
+        
+      };
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current,process.env.REACT_APP_PUBLIC_KEY)
-      e.target.reset()
-  };
+
 
   return (
     <section className="contact section" id="contact">
