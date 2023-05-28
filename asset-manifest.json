@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SravyaSriAbburi/static/css/main.e0e75cd0.css",
-    "main.js": "/SravyaSriAbburi/static/js/main.8f2bc41d.js",
+    "main.css": "/SravyaSriAbburi/static/css/main.66e84f18.css",
+    "main.js": "/SravyaSriAbburi/static/js/main.30842689.js",
     "static/media/project5.jpg": "/SravyaSriAbburi/static/media/project5.0b4ab16cb914dc0f13ca.jpg",
     "static/media/project7.jpg": "/SravyaSriAbburi/static/media/project7.8fab895ff07dc4917d8c.jpg",
     "static/media/project4.jpg": "/SravyaSriAbburi/static/media/project4.06e4c2c3cf16f5afd472.jpg",
@@ -13,11 +13,11 @@
     "static/media/profile.JPG": "/SravyaSriAbburi/static/media/profile.c9cc292d2f4717cc26ce.JPG",
     "static/media/SravyaAbburi.pdf": "/SravyaSriAbburi/static/media/SravyaAbburi.0f0ed133d508b31f68ab.pdf",
     "index.html": "/SravyaSriAbburi/index.html",
-    "main.e0e75cd0.css.map": "/SravyaSriAbburi/static/css/main.e0e75cd0.css.map",
-    "main.8f2bc41d.js.map": "/SravyaSriAbburi/static/js/main.8f2bc41d.js.map"
+    "main.66e84f18.css.map": "/SravyaSriAbburi/static/css/main.66e84f18.css.map",
+    "main.30842689.js.map": "/SravyaSriAbburi/static/js/main.30842689.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0e75cd0.css",
-    "static/js/main.8f2bc41d.js"
+    "static/css/main.66e84f18.css",
+    "static/js/main.30842689.js"
   ]
 }
