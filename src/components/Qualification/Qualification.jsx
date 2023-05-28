@@ -8,7 +8,7 @@ const Qualification = () => {
         setToggleState(index)
     }
   return (
-  <section className="qualification section" id='#qualification'>
+  <section className="qualification section" id='qualification'>
   <Slide direction="left" triggerOnce>
     <h2 className="section__title">Qualification</h2>
     </Slide>
