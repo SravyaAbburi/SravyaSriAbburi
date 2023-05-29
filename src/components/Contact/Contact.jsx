@@ -1,8 +1,12 @@
-import React, { useRef} from "react";
+import React, { useRef, useState} from "react";
+import Success from "../success/Success.tsx";
+import Loading from "../loading/Loading.tsx";
 
 import './contact.css'
 
 const Contact = () => {
+  const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
 
     const SERVICE_ID= process.env.REACT_APP_SERVICE_ID
     const TEMPLATE_ID= process.env.REACT_APP_TEMPLATE_ID
@@ -15,34 +19,38 @@ const Contact = () => {
 
     const sendEmail = async (e) => {
         
-        e.preventDefault();
-        try {
-        await fetch(url, {
-            method,
-            headers: {
-              "Content-Type": "application/json",
-            },
-    
-            body:
-              JSON.stringify({
-                service_id: SERVICE_ID,
-                template_id: TEMPLATE_ID,
-                user_id: PUBLIC_KEY,
-                template_params: {
-                  name: form.current.name.value,
-                  email: form.current.email.value,
-                  message: form.current.message.value,
-                },
-              }),
-          });
-         
-            
-          e.target.reset()
-           
-          
-        } catch (error) {
-          console.log(error);
+      setLoading(true);
+      e.preventDefault();
+      try {
+        const response = await fetch(url, {
+          method,
+          headers: {
+            "Content-Type": "application/json",
+          },
+  
+          body:
+            JSON.stringify({
+              service_id: SERVICE_ID,
+              template_id: TEMPLATE_ID,
+              user_id: PUBLIC_KEY,
+              template_params: {
+                name: form.current.name.value,
+                email: form.current.email.value,
+                message: form.current.message.value,
+              },
+            }) ,
+        });
+        if (response.status === 200) {
+          setSent(true);
+          form.current.reset();
+        } else {
+          setSent(false);
         }
+        setSent(true);
+      } catch (error) {
+        console.log(error);
+      }
+      setLoading(false);
         
       };
 
@@ -50,6 +58,8 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
+    <Success sent={sent} setSent={setSent} />
+      {loading && <Loading />}
          <h2 className='section__title'>Get in Touch</h2>
          <span className='section__subtitle'>Contact Me</span>
          <div className="contact__container container grid">
