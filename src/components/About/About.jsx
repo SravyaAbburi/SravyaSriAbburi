@@ -19,7 +19,7 @@ const About = () => {
                 <div className="about__data">
                    <Info />
                   
-                  <p className="about__description">As a Machine Learning Engineer, I create various projects, I have years of experience and many clients are happy with the projects carried out.
+                  <p className="about__description"> Machine Learning Engineer with expertise in developing and deploying cutting-edge algorithms for data-driven solutions
                   </p>
                   
                   <a href={Resume} download="" className="button button--flex">Download Resume {"  "}
