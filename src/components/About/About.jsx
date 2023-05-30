@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import AboutImg from '../../assets/about.JPG'
+/*import AboutImg from '../../assets/about.JPG'*/
 import Resume from '../../assets/SravyaAbburi.pdf'
 import Info from './Info'
 
@@ -14,12 +14,12 @@ const About = () => {
         <span className='section__subtitle'>My introduction</span>
         <div className="about__container container grid">
 
-             <img src={AboutImg} alt="About Img" className="about__img" />{" "}
-            
+             {/*<img src={AboutImg} alt="About Img" className="about__img" />{" "}*/}
+             <Info />
                 <div className="about__data">
-                   <Info />
                   
-                  <p className="about__description"> Machine Learning Engineer with expertise in developing and deploying cutting-edge algorithms for data-driven solutions
+                  
+                  <p className="about__description"> I am a dedicated and passionate Machine Learning Engineer with expertise in developing and deploying cutting-edge algorithms for data-driven solutions.
                   </p>
                   
                   <a href={Resume} download="" className="button button--flex">Download Resume {"  "}

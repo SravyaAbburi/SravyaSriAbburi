@@ -8,9 +8,17 @@ const Data = () => {
         </h1>
         <h3 className='home__subtitle'>Machine Learning Engineer</h3>
         <p className='home__description'>I'm a machine learning engineer passionate about solving problems in the field of AI</p>
-        <h3 className='home__tech'>Tech Stack   <i className="devicon-python-plain colored home__tech__icon"></i>  <i className="devicon-numpy-original colored  home__tech__icon"></i>  <i className="devicon-pandas-original colored  home__tech__icon"></i>  <i className="devicon-tensorflow-original colored  home__tech__icon"></i>  <i className="devicon-pytorch-original colored  home__tech__icon"></i>  <i className="devicon-opencv-plain colored  home__tech__icon"></i>  <i className="devicon-jupyter-plain-wordmark colored  home__tech__icon"></i></h3>
+        
+        <span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='home__tech__icon' />  
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='home__tech__icon'/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='home__tech__icon'/>  
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='home__tech__icon'/> 
+        {/*<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg" alt='pytorch logo' className='home__tech__icon'/> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original-wordmark.svg" alt='opencv logo' className='home__tech__icon' />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='home__tech__icon'/></span>
        
     </div>
+    
   )
 }
 

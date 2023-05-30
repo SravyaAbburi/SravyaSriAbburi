@@ -1,55 +1,51 @@
+.project__container{
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    column-gap: 2rem;
+    
+}
+
 .projects__card{
-padding: 1rem 1.25rem;
-color: white;
-   width:320px;
-   height:320px;
+   padding: 1rem 1.25rem;
    border-radius: 20px;
-   overflow: hidden;
-   position: relative;
-  margin: 1rem 1rem;
+  
 
-   
-
-}
-
-.projects__card:hover .project__card-body{
-    right: 0;
+  
+   margin: 1rem 1rem; 
+   transition: 0.7s;
 
 }
+
+.projects__card:hover{
+    transform: scale(1.08);
+    transition: 1s;
+}
+
+
 .project__card-body{
 width:100%;
 height:100%;
-top: 0;
-right: -100%;
-position: absolute;
-background:#1f3d4738 ;
-backdrop-filter: blur(5px);
-border-radius: 15px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 25%;
-    padding-bottom: 25%;
-   transition: 2s;
 }
 .projects__card-title{
+    color: var(--title-color);
  
     text-align: center;
     
 }
 
 .projects__card-img{
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
+ 
    border-radius: 15px;
 }
 
 .projects__card-data{
     text-align: center;
- 
 
+}
+.projects__card-stack{
+    color: var(--title-color);
+    text-align: center;
 }
 
 .projects__card-link{

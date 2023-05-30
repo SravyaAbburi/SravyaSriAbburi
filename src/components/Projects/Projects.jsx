@@ -25,28 +25,35 @@ const Projects = () => {
 
   
 
-  <Container className='p-1'>
-      <Row >
+  <Container>
+      <Row lg={1} md={1} sm={1} className='g-1'>
        {
         projectsData.map(project =>{
           return (
-            <Col lg={4} md={4} sm={6} key={project.id} >
+            <Col key={project.id} >
        
         
         <Card className="projects__card">
-        <Card.Img variant="top" src={project.img} className='projects__card-img'/>
+        {/*<Card.Img variant="top" src={project.img} className='projects__card-img'/>*/}
+       
          <Card.Body className='project__card-body'>
          
-        <Card.Title className='projects__card-title'>{project.title}</Card.Title>
-        <Card.Text className='projects__card-data'>
+        
+          <Card.Title className='projects__card-title'>{project.title}</Card.Title>
+          <Card.Text className='projects__card-data'>
           {project.description}
         </Card.Text>
+        <Card.Text className='projects__card-stack'>
+          Tech Stack : {project.techstack}
+        </Card.Text>
         <div className='projects__link'>
+        
         <Button href={project.sourcecode} className="projects__card-link">Source Code</Button>
        
         </div>
-       
+     
       </Card.Body>
+     
     </Card>
  
    

@@ -96,6 +96,7 @@ const Contact = () => {
                   rows={10}
                   required
                   placeholder="Write your message"
+                  defaultValue="Hi, I would like to get in touch with you for a professional requirement.."
                 ></textarea>
               </div>
               <button type="submit" className="button button--flex">
