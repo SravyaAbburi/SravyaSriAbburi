@@ -10,10 +10,17 @@
     {
       id: 1,
       title: "Sentiment Analysis of Youtube Comments",
-      description: "applying sentiment analysis technique on youtube comments to mine the opinions and delete bad words",
+      description: "applying sentiment analysis technique on youtube comments",
       sourcecode:"",
       img:project1,
-      techstack:"Numpy,Pandas,Matplotlib,Seaborn,Scikit-learn,Tensorflow"
+      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
+     
     },
     {
       id: 2,
@@ -22,7 +29,13 @@
       description: "Detecting Fake Currency using Nueral Networks and image processing",
       sourcecode:"",
       img:project2,
-      techstack:"Numpy,Pandas,Matplotlib,Seaborn,Scikit-learn,Tensorflow"
+      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
       id: 3,
@@ -31,7 +44,13 @@
       description: "Performing multi class classification on MNIST Dataset of handwritten digits",
       sourcecode:"",
       img:project3,
-      techstack:"Numpy,Pandas,Matplotlib,Seaborn,Scikit-learn,Tensorflow"
+      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
       id: 4,
@@ -40,7 +59,13 @@
       description: "Predicting the prices of old cars using supervised machine learning techniques",
       sourcecode:"",
       img:project4,
-      techstack:"Numpy,Pandas,Matplotlib,Seaborn,Scikit-learn,Tensorflow"
+      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
       id: 5,
@@ -49,7 +74,13 @@
       description: "Predicting the attrition rate in a company using supervised machine learning techniques",
       sourcecode:"",
       img:project5,
-      techstack:"Numpy,Pandas,Matplotlib,Seaborn,Scikit-learn,Tensorflow"
+      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
       id: 6,
@@ -58,7 +89,13 @@
       description: "Building Recommender system to recommend songs",
       sourcecode:"",
       img:project6,
-      techstack:"Numpy,Pandas,Matplotlib,Seaborn,Scikit-learn,Tensorflow"
+      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
       id: 7,
@@ -67,7 +104,13 @@
       description: "Prediction of Parkinsons disease using machine learning",
       sourcecode:"",
       img:project7,
-      techstack:"Numpy,Pandas,Matplotlib,Seaborn,Scikit-learn,Tensorflow"
+      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
 
   ];
