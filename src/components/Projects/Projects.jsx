@@ -3,10 +3,11 @@ import './projects.css'
 import projectsData from './ProjectsData' 
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 
 
@@ -18,28 +19,30 @@ const Projects = () => {
  
  
   <span className='section__subtitle'>My Projects</span>
+ 
 
   <Swiper
-          className="projects__container"
-          
-          grabCursor={true}
-          spaceBetween={24}
-          pagination={{ clickable: true }}
-          breakpoints={{
-            576: {
-              slidesPerView: 2,
-            },
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 48,
-            },
-          }}
-          modules={[Pagination]}
+          className="projects__container mySwiper"
+          grabCursor={true} 
+        cssMode={true}
+        navigation={true}
+        pagination={true}
+        mousewheel={true}
+        keyboard={true}
+        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+       
         >
          {projectsData.map(({ id, title,description,sourcecode,img, techstack }) => {
             return (
-              <SwiperSlide className="projects__card" key={id}>
-                <h3 className="projects__name">{title}</h3>
+              
+              <SwiperSlide  key={id}>
+              <div className='grid projects__card'>
+              <div>
+              <img src={img} alt="img" className="projects__img" />
+              </div>
+              
+              <div className="projects__content">
+              <h3 className="projects__name">{title}</h3>
                 <p className='project__data'>{description}</p>
                 <span className='project__tech'>Techstack: {techstack}</span>
                
@@ -55,7 +58,10 @@ const Projects = () => {
                   </a>
           
                 </div>
+              </div>
+              </div>
               </SwiperSlide>
+           
             );
           })}
         </Swiper>
