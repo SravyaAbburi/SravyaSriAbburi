@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/SravyaSriAbburi/static/css/main.6859d8f2.css",
-    "main.js": "/SravyaSriAbburi/static/js/main.a30102d6.js",
-    "static/media/project5.jpg": "/SravyaSriAbburi/static/media/project5.0b4ab16cb914dc0f13ca.jpg",
-    "static/media/project7.jpg": "/SravyaSriAbburi/static/media/project7.8fab895ff07dc4917d8c.jpg",
-    "static/media/project4.jpg": "/SravyaSriAbburi/static/media/project4.06e4c2c3cf16f5afd472.jpg",
-    "static/media/project3.jpg": "/SravyaSriAbburi/static/media/project3.c7f013f9f4d119d942b4.jpg",
-    "static/media/project2.jpg": "/SravyaSriAbburi/static/media/project2.fdbe0d269736542aead5.jpg",
-    "static/media/project6.jpg": "/SravyaSriAbburi/static/media/project6.44dc40b91fbb958b6eda.jpg",
-    "static/media/project1.jpg": "/SravyaSriAbburi/static/media/project1.a9c162f0b48e081d88c5.jpg",
+    "main.js": "/SravyaSriAbburi/static/js/main.0008088f.js",
+    "static/media/project2.jpg": "/SravyaSriAbburi/static/media/project2.a9675d8bdd827a0b2e58.jpg",
+    "static/media/project4.jpg": "/SravyaSriAbburi/static/media/project4.6725adb395728b96bece.jpg",
+    "static/media/project6.jpg": "/SravyaSriAbburi/static/media/project6.041e8b7382d7a2a26ba9.jpg",
+    "static/media/project3.jpg": "/SravyaSriAbburi/static/media/project3.b128a10fda61dd7272fa.jpg",
+    "static/media/project7.jpg": "/SravyaSriAbburi/static/media/project7.5ff761781ac668d8ea3c.jpg",
+    "static/media/project1.jpg": "/SravyaSriAbburi/static/media/project1.9053b1749d450a8e983a.jpg",
     "static/media/profile.JPG": "/SravyaSriAbburi/static/media/profile.c9cc292d2f4717cc26ce.JPG",
+    "static/media/project5.jpg": "/SravyaSriAbburi/static/media/project5.9456250d784fb698294f.jpg",
     "static/media/SravyaAbburi.pdf": "/SravyaSriAbburi/static/media/SravyaAbburi.0f0ed133d508b31f68ab.pdf",
     "index.html": "/SravyaSriAbburi/index.html",
     "main.6859d8f2.css.map": "/SravyaSriAbburi/static/css/main.6859d8f2.css.map",
-    "main.a30102d6.js.map": "/SravyaSriAbburi/static/js/main.a30102d6.js.map"
+    "main.0008088f.js.map": "/SravyaSriAbburi/static/js/main.0008088f.js.map"
   },
   "entrypoints": [
     "static/css/main.6859d8f2.css",
-    "static/js/main.a30102d6.js"
+    "static/js/main.0008088f.js"
   ]
 }
