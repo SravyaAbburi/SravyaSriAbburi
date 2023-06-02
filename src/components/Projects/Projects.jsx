@@ -22,11 +22,11 @@ const Projects = () => {
  
 
   <Swiper
-          className="projects__container mySwiper"
-          grabCursor={true} 
+        className="projects__container mySwiper"
+        grabCursor={true} 
         cssMode={true}
         navigation={true}
-        pagination={true}
+        pagination={{ clickable: true }}
         mousewheel={true}
         keyboard={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}

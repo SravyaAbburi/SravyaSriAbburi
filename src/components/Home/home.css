@@ -45,7 +45,12 @@
  
  width: 60px;
  height: 60px;
+ transition: 0.3s;
 }
+.home__tech__icon:hover{
+    transform: scale(1.1);
+}
+
 
 .home__subtitle::before{
     content: '';
