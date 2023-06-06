@@ -184,6 +184,10 @@
     .home__scroll{
         display: none;
     }
+    .home__tech__icon{
+        width: 40px;
+        height:40px;
+    }
    
   }
   
