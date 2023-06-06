@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Scrollup from './components/Scrollup/Scrollup';
 
+
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
         <Projects/>
         <Qualification/>
      <Contact />
+ 
       </main>
       <Footer/>
       <Scrollup/>
