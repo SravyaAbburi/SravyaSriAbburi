@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SravyaSriAbburi/static/css/main.60b9defa.css",
+    "main.css": "/SravyaSriAbburi/static/css/main.c730e5ee.css",
     "main.js": "/SravyaSriAbburi/static/js/main.cda7bb77.js",
     "static/media/project2.jpg": "/SravyaSriAbburi/static/media/project2.a9675d8bdd827a0b2e58.jpg",
     "static/media/project4.jpg": "/SravyaSriAbburi/static/media/project4.6725adb395728b96bece.jpg",
@@ -8,15 +8,15 @@
     "static/media/project3.jpg": "/SravyaSriAbburi/static/media/project3.b128a10fda61dd7272fa.jpg",
     "static/media/project7.jpg": "/SravyaSriAbburi/static/media/project7.5ff761781ac668d8ea3c.jpg",
     "static/media/project1.jpg": "/SravyaSriAbburi/static/media/project1.9053b1749d450a8e983a.jpg",
-    "static/media/profile.JPG": "/SravyaSriAbburi/static/media/profile.c9cc292d2f4717cc26ce.JPG",
     "static/media/project5.jpg": "/SravyaSriAbburi/static/media/project5.9456250d784fb698294f.jpg",
+    "static/media/profile1.jpg": "/SravyaSriAbburi/static/media/profile1.92449ae3ab9bd8698351.jpg",
     "static/media/SravyaAbburi.pdf": "/SravyaSriAbburi/static/media/SravyaAbburi.0f0ed133d508b31f68ab.pdf",
     "index.html": "/SravyaSriAbburi/index.html",
-    "main.60b9defa.css.map": "/SravyaSriAbburi/static/css/main.60b9defa.css.map",
+    "main.c730e5ee.css.map": "/SravyaSriAbburi/static/css/main.c730e5ee.css.map",
     "main.cda7bb77.js.map": "/SravyaSriAbburi/static/js/main.cda7bb77.js.map"
   },
   "entrypoints": [
-    "static/css/main.60b9defa.css",
+    "static/css/main.c730e5ee.css",
     "static/js/main.cda7bb77.js"
   ]
 }
