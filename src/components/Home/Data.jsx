@@ -7,7 +7,7 @@ const Data = () => {
         
         </h1>
         <h3 className='home__subtitle'>Machine Learning Engineer</h3>
-        <p className='home__description'>I'm a machine learning engineer passionate about solving problems in the field of AI</p>
+        <p className='home__description'>I'm an aspiring machine learning engineer passionate about solving problems in the field of AI</p>
         
         <span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='home__tech__icon' />  
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='home__tech__icon'/>

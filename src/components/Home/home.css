@@ -23,6 +23,10 @@
     color: var(--title-color-dark);
 }
 
+.kaggle{
+    width: 32px;
+    height: 32px;
+}
 .home__title{
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);

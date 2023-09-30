@@ -5,12 +5,16 @@
  import project5 from '../../assets/project5.jpg'
  import project6 from '../../assets/project6.jpg'
  import project7 from '../../assets/project7.jpg'
+ import project8 from '../../assets/project8.jpg'
+ import project9 from '../../assets/project9.jpg'
+ import project10 from '../../assets/project10.jpg'
+ 
 
  const projectsData = [
     {
       id: 1,
-      title: "Sentiment Analysis of Youtube Comments",
-      description: "applying sentiment analysis technique on youtube comments",
+      title: "Research Paper Summarizer",
+      description: "Fine tuned LLama2 model on arXiv data for abstractive summarization",
       sourcecode:"",
       img:project1,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
@@ -25,8 +29,8 @@
     {
       id: 2,
      
-      title: "Fake Currency Detection System",
-      description: "Detecting Fake Currency using Nueral Networks and image processing",
+      title: "Resume Parser",
+      description: "Automatically parses the Resume and does NER on it",
       sourcecode:"",
       img:project2,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
@@ -40,8 +44,8 @@
     {
       id: 3,
      
-      title: "MNIST Handwritten Digit Classification",
-      description: "Performing multi class classification on MNIST Dataset of handwritten digits",
+      title: "Lending Club Loan Data Analysis",
+      description: "Create a model that predicts whether or not a loan will be default using the historical data.",
       sourcecode:"",
       img:project3,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
@@ -55,8 +59,8 @@
     {
       id: 4,
     
-      title: "Old Car Price Prediction",
-      description: "Predicting the prices of old cars using supervised machine learning techniques",
+      title: "Perform Facial Recognition with Deep Learning",
+      description: "Uses a deep convolutional neural network to perform facial recognition using Keras",
       sourcecode:"",
       img:project4,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
@@ -70,8 +74,8 @@
     {
       id: 5,
       
-      title: "Attrition Rate Prediction",
-      description: "Predicting the attrition rate in a company using supervised machine learning techniques",
+      title: "Diabetic Retinopathy detection",
+      description: "A CNN model using distributed training that can detect diabetic retinopathy ",
       sourcecode:"",
       img:project5,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
@@ -85,8 +89,8 @@
     {
       id: 6,
       
-      title: "Spotify Recommender System",
-      description: "Building Recommender system to recommend songs",
+      title: "Emotion Recognition",
+      description: "A model using a convolutional neural network that can classify a person's emotion",
       sourcecode:"",
       img:project6,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
@@ -100,8 +104,8 @@
     {
       id: 7,
       
-      title: "Parkinsons Disease Prediction",
-      description: "Prediction of Parkinsons disease using machine learning",
+      title: "Detection of Lung Infection",
+      description: "A model using a convolutional neural network that can classify lung infection in a person using medical imagery",
       sourcecode:"",
       img:project7,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
@@ -112,6 +116,53 @@
      
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
+    {
+      id: 8,
+      
+      title: "Healthcare Project",
+      description: "robust classification model(s) for identifying 5 types of cancer.",
+      sourcecode:"",
+      img:project8,
+      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
+    },
+    {
+      id: 9,
+      
+      title: "Cyber Security Project",
+      description: "Analyzing Book-My-Show datato check whether the particular URL is prone to phishing (malicious) or not.",
+      sourcecode:"",
+      img:project9,
+      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
+    },
+    {
+      id: 10,
+      
+      title: "Retail Project",
+      description: "Build a model to do Demand Forecast for Stores",
+      sourcecode:"",
+      img:project10,
+      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
+    },
+
+
 
   ];
 
