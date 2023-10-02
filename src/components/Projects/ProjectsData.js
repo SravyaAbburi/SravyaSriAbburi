@@ -10,12 +10,14 @@
  import project10 from '../../assets/project10.jpg'
  
 
+ 
+
  const projectsData = [
     {
       id: 1,
       title: "Research Paper Summarizer",
       description: "Fine tuned LLama2 model on arXiv data for abstractive summarization",
-      sourcecode:"",
+      sourcecode:"https://huggingface.co/sravya-abburi/LLama2_arXiv_finetuned",
       img:project1,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
@@ -31,7 +33,7 @@
      
       title: "Resume Parser",
       description: "Automatically parses the Resume and does NER on it",
-      sourcecode:"",
+      sourcecode:"https://huggingface.co/spaces/sravya-abburi/ResumeParser",
       img:project2,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
@@ -46,7 +48,7 @@
      
       title: "Lending Club Loan Data Analysis",
       description: "Create a model that predicts whether or not a loan will be default using the historical data.",
-      sourcecode:"",
+      sourcecode: "/project3.html",
       img:project3,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
