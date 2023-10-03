@@ -48,7 +48,7 @@
      
       title: "Lending Club Loan Data Analysis",
       description: "Create a model that predicts whether or not a loan will be default using the historical data.",
-      sourcecode: "/project3.html",
+      sourcecode:"https://github.com/SravyaAbburi/LoanAnalysis",
       img:project3,
       techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>

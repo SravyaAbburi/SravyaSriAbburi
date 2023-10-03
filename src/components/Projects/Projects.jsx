@@ -11,43 +11,8 @@ import "swiper/css/navigation";
 
 
 
-const Projects = ({ sourcecode }) => {
-  
-  const openHtmlFileOrWebsiteInNewTab = (sourcecode) => {
-    if (sourcecode) {
-      const newWindow = window.open('', '_blank');
-      if (newWindow) {
-        // Check if sourcecode is a website URL
-        if (sourcecode.startsWith('http://') || sourcecode.startsWith('https://')) {
-          newWindow.location.href = sourcecode; // Redirect to the website
-        } else {
-          // Assuming sourcecode is a path to an HTML file in the public folder
-          fetch(process.env.PUBLIC_URL + sourcecode)
-            .then(response => response.text())
-            .then(htmlContent => {
-              newWindow.document.open();
-              newWindow.document.write(`
-                <html>
-                  <head></head>
-                  <body>
-                    <div dangerouslySetInnerHTML={{ __html: '${htmlContent}' }}></div>
-                  </body>
-                </html>
-              `);
-              newWindow.document.close();
-            })
-            .catch(error => {
-              console.error('Error loading HTML:', error);
-            });
-        }
-      } else {
-        console.error('Unable to open new window.');
-      }
-    } else {
-      console.error('No sourcecode provided.');
-    }
-  };
-  
+const Projects = () => {
+ 
   return (
   <section className="projects container section" id="projects">
    
@@ -84,9 +49,14 @@ const Projects = ({ sourcecode }) => {
                
 
                 <div>
-                <button onClick={() => openHtmlFileOrWebsiteInNewTab(sourcecode)} className="projects_social-icon">
-                <i className="uil uil-globe"></i></button>
-                  
+                  <a
+                    href={sourcecode}
+                    className="projects_social-icon"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="uil uil-globe"></i>
+                  </a>
           
                 </div>
               </div>
@@ -96,7 +66,7 @@ const Projects = ({ sourcecode }) => {
             );
           })}
         </Swiper>
-       
+  
 
   
 
