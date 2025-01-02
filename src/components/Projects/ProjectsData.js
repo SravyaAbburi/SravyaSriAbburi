@@ -13,38 +13,38 @@
  
 
  const projectsData = [
+    // {
+    //   id: 1,
+    //   title: "Research Paper Summarizer",
+    //   description: "Fine tuned LLama2 model on arXiv data for abstractive summarization",
+    //   sourcecode:"https://huggingface.co/sravya-abburi/LLama2_arXiv_finetuned",
+    //   img:project1,
+    //   techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+    //   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+    //   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+    //   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+    //   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
+     
+    // },
+    // {
+    //   id: 2,
+     
+    //   title: "Resume Parser",
+    //   description: "Automatically parses the Resume and does NER on it",
+    //   sourcecode:"https://huggingface.co/spaces/sravya-abburi/ResumeParser",
+    //   img:project2,
+    //   techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
+    //   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
+    //   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
+    //   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
+      
+     
+    //   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
+    // },
     {
       id: 1,
-      title: "Research Paper Summarizer",
-      description: "Fine tuned LLama2 model on arXiv data for abstractive summarization",
-      sourcecode:"https://huggingface.co/sravya-abburi/LLama2_arXiv_finetuned",
-      img:project1,
-      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
-      
-     
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
-     
-    },
-    {
-      id: 2,
-     
-      title: "Resume Parser",
-      description: "Automatically parses the Resume and does NER on it",
-      sourcecode:"https://huggingface.co/spaces/sravya-abburi/ResumeParser",
-      img:project2,
-      techstack:<span className='home__tech'>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt='python logo' className='project__tech__icon' />  
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" alt='numpy logo' className='project__tech__icon'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt='pandas logo' className='project__tech__icon'/>  
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt='tensorflow logo' className='project__tech__icon'/> 
-      
-     
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
-    },
-    {
-      id: 3,
      
       title: "Lending Club Loan Data Analysis",
       description: "Create a model that predicts whether or not a loan will be default using the historical data.",
@@ -59,7 +59,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
-      id: 4,
+      id: 2,
     
       title: "Perform Facial Recognition with Deep Learning",
       description: "Uses a deep convolutional neural network to perform facial recognition using Keras",
@@ -74,7 +74,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
-      id: 5,
+      id: 3,
       
       title: "Diabetic Retinopathy detection",
       description: "A CNN model using distributed training that can detect diabetic retinopathy ",
@@ -89,7 +89,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
-      id: 6,
+      id: 4,
       
       title: "Emotion Recognition",
       description: "A model using a convolutional neural network that can classify a person's emotion",
@@ -104,7 +104,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
-      id: 7,
+      id: 5,
       
       title: "Detection of Lung Infection",
       description: "A model using a convolutional neural network that can classify lung infection in a person using medical imagery",
@@ -119,7 +119,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
-      id: 8,
+      id: 6,
       
       title: "Healthcare Project",
       description: "robust classification model(s) for identifying 5 types of cancer.",
@@ -134,7 +134,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
-      id: 9,
+      id: 7,
       
       title: "Cyber Security Project",
       description: "Analyzing Book-My-Show datato check whether the particular URL is prone to phishing (malicious) or not.",
@@ -149,7 +149,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt='jupyter logo'  className='project__tech__icon'/></span>
     },
     {
-      id: 10,
+      id: 8,
       
       title: "Retail Project",
       description: "Build a model to do Demand Forecast for Stores",
